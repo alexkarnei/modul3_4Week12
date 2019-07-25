@@ -1,21 +1,31 @@
-body{background:#f2f2f2;}
+body {
+    background: #f2f2f2;
+}
+
+.disk {
+    margin-top: 10px;
+    list-style-type: circle;
+}
+
+.fails {
+    margin-top: 10px;
+    list-style-type: disc;
+}
 
 
-
-
-.nav-ct li, a {
-    display:inline-block;
-    text-align:center;
+a {
+    display: block;
     font: normal 14px Open Sans;
     text-transform: uppercase;
-    text-decoration:none;
-    color:#000;
+    text-decoration: none;
+    color: #000;
 }
 
 a:hover {
-    font-weight:bold;
-    text-decoration:none;
+    font-weight: bold;
+    text-decoration: none;
 }
+
 a::after {
     display: block;
     content: attr(title);
