@@ -8,3 +8,4 @@ onload = function () {
     }
 }
 
+alert();
